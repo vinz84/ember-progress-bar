@@ -51,6 +51,8 @@ export default Component.extend({
       'setProgress'
     );
 
+    this.progressBar.path.style.strokeLinecap = 'round';
+
     if (isPresent(setProgress)) {
       progressBar.set(setProgress);
     }
